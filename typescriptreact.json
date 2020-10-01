@@ -32,4 +32,24 @@
 			"}"
 		]
 	},
+  "Storybook Story": {
+		"prefix": "rst",
+		"body": [
+			"import React from 'react'",
+			"import { contained } from './decorators'",
+			"",
+			"",
+			"export default {",
+			"  title: '$1',",
+			"  component: $1,",
+			"  decorators: [contained]",
+			"}",
+			"",
+			"export const defaultStory = () => {",
+			"return (",
+			  "<$1 />",
+			")",
+			"}"
+		]
+	}
 }
